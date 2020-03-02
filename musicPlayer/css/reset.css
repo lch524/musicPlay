@@ -1,0 +1,34 @@
+
+    .musicbox .progress-now {
+      width: 260px;
+      height: 3px;
+      background-color: lightblue;
+      width: 0%;
+    }
+  
+    .musicbox .contorl {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px;
+    }
+
+    .musicbox .contorl .fa{
+      margin: 7px;
+    }
+
+    .musicbox .contorl span {
+      display: inline-block;
+      width: 30px;
+    }
+    
+.list .active::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 28px;
+  background: lightblue;
+}
